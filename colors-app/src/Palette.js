@@ -16,13 +16,16 @@ class Palette extends Component {
     this.setState({ format: val });
   }
   render() {
-    const colorBoxes = this.props.palette.colors[this.state.level].map(
-      (color) => {
-        return (
-          <ColorBox background={color[this.state.format]} name={color.name} />
-        );
-      }
-    );
+    const { colors } = this.props.palette;
+    const colorBoxes = colors[this.state.level].map((color) => {
+      return (
+        <ColorBox
+          background={color[this.state.format]}
+          name={color.name}
+          key={color.id}
+        />
+      );
+    });
 
     return (
       <div className="Palette">
