@@ -16,8 +16,6 @@ class PaletteList extends Component {
             <h1>Welcome to FabColour</h1>
           </nav>
           <div className="palettes">
-            {/* <MiniPalette /> */}
-
             {palettes.map((palette) => {
               return (
                 <MiniPalette
