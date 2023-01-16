@@ -6,6 +6,8 @@ https://fab-color.netlify.app/
 
 Source code can be found at https://github.com/dk7696822/Color-Palette (main branch)
 
+change pwd to /colors-app and run command "npm start"
+
 Functionalities included:
 
 1. Slider to choose from different shades of colours
@@ -18,3 +20,5 @@ Additional Libraries used:
 2. Material UI --- For Slider and SnackBar
 
 Screenshots of all the pages
+
+![Screenshot (353)](https://user-images.githubusercontent.com/21274678/212611442-8aeaa7c2-e443-442f-81aa-b107a4854bec.png)
