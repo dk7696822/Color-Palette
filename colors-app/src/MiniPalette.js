@@ -2,7 +2,7 @@ import React from "react";
 import "./MiniPalette.css";
 
 function MiniPalette(props) {
-  const { paletteName, colors, emoji } = props;
+  const { paletteName, colors } = props;
   const miniColorBoxes = colors.map((color) => {
     return (
       <div

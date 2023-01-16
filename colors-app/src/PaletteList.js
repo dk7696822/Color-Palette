@@ -11,9 +11,10 @@ class PaletteList extends Component {
     return (
       <div className="palette-list">
         <div className="container">
-          <nav className="nav">
-            <h1>Welcome to FabColour</h1>
-          </nav>
+          {/* <nav className="nav">
+            <h1>Choose your favourite color</h1>
+          </nav> */}
+
           <div className="palettes">
             {palettes.map((palette) => {
               return (
